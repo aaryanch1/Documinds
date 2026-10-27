@@ -1,0 +1,36 @@
+# DocuMind AI — Google Gemini Edition
+# Install with: python -m pip install -r requirements.txt
+
+# Core application and Gemini's OpenAI-compatible API client
+streamlit>=1.40.0
+openai>=1.50.0
+python-dotenv>=1.0.1
+
+# Data handling and retrieval
+numpy>=1.26.0
+pandas>=2.2.0
+scikit-learn>=1.5.0
+
+# Document and file-format readers
+PyMuPDF>=1.24.0
+python-docx>=1.1.2
+python-pptx>=1.0.2
+openpyxl>=3.1.5
+xlrd>=2.0.1
+odfpy>=1.4.1
+striprtf>=0.0.26
+beautifulsoup4>=4.12.3
+Pillow>=10.4.0
+defusedxml>=0.7.1
+PyYAML>=6.0.2
+
+# Optional OCR support for scanned PDFs and images
+pytesseract>=0.3.13
+
+# Optional FastAPI backend (used if running the API separately)
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+
+# Optional semantic-embedding backend.
+# This is a larger dependency and downloads a model on first use.
+sentence-transformers>=3.1.0
